@@ -10,16 +10,16 @@ const Footer = () => {
           {/* About Us Section */}
           <div className="md:col-span-2">
             <h3 className="text-xl font-semibold mb-4">
-              Mississauga Drywall Repair by AZ
+              Vancouver Drywall Repair by AZ
             </h3>
             <div className="h-1 w-16 bg-white mb-6"></div>
             <p className="text-slate-300 mb-6 leading-relaxed">
-              Your trusted partner for professional drywall repair and water damage restoration across the Greater Toronto Area. Our expert team delivers quality craftsmanship and reliable emergency services 24/7.
+              Your trusted partner for professional drywall repair and water damage restoration across Vancouver. Our expert team delivers quality craftsmanship and reliable emergency services 24/7.
             </p>
             <div className="text-slate-400 text-sm">
-              <p>Locally owned and operated in Greater Toronto Area</p>
+              <p>Locally owned and operated in Vancouver, BC</p>
               <p className="flex items-center gap-2 text-white mt-2">
-                Licensed & Insured in Ontario
+                Licensed & Insured in British Columbia
               </p>
             </div>
           </div>
@@ -58,26 +58,22 @@ const Footer = () => {
             <div className="text-slate-300 space-y-4">
               <div>
                 <p className="font-semibold mb-2">Service Areas:</p>
-                <p className="text-white">Toronto • North York • Etobicoke</p>
-                <p className="text-white">Scarborough • Mississauga</p>
+                <p className="text-white">Vancouver • Burnaby • Richmond</p>
+                <p className="text-white">North Vancouver • West Vancouver</p>
                 <p className="mt-2 text-white font-semibold">24/7 Emergency Response</p>
               </div>
               <div className="pt-4 border-t border-slate-700">
-                <a href="tel:778-200-9299" className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer mb-3">
+                <a href="tel:778-653-4862" className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer mb-3">
                   <Phone size={16} />
-                  <p>778-200-9299</p>
+                  <p>778-653-4862</p>
                 </a>
-                <a href="mailto:office@mississaugadrywall.ca" className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer mb-3">
+                <a href="mailto:office@azdrywall.ca" className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer mb-3">
                   <Mail size={16} />
-                  <p>office@mississaugadrywall.ca</p>
+                  <p>office@azdrywall.ca</p>
                 </a>
-                <a href="https://mississaugadrywall.ca" className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer mb-3">
-                  <ExternalLink size={16} />
-                  <p>mississaugadrywall.ca</p>
-                </a>
-                <div className="flex items-center gap-2 hover:text-white transition-colors duration-300">
+                <div className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer mb-3">
                   <MapPin size={16} />
-                  <p>Greater Toronto Area</p>
+                  <p>922 Homer St, Vancouver, BC</p>
                 </div>
               </div>
               <div className="flex space-x-4 pt-4">
@@ -99,7 +95,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-700">
           <div className="flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
             <div className="text-center md:text-left mb-4 md:mb-0">
-              <p>© {new Date().getFullYear()} Mississauga Drywall Repair by AZ. ALL RIGHTS RESERVED</p>
+              <p>© {new Date().getFullYear()} Vancouver Drywall Repair by AZ. ALL RIGHTS RESERVED</p>
             </div>
             <div className="flex space-x-8">
               <a href="#" className="hover:text-white transition-colors duration-300">PRIVACY POLICY</a>
