@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Phone, Hammer, Clock, Shield, ArrowRight, AlertTriangle } from 'lucide-react';
 import Link from 'next/link';
 
-const NorthVancouverDrywall = () => {
+const VancouverDrywall = () => {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -11,7 +11,7 @@ const NorthVancouverDrywall = () => {
   });
 
   const handleEmergencyCall = () => {
-    window.location.href = 'tel:604-265-9154';
+    window.location.href = 'tel:778-653-4862';
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -31,7 +31,7 @@ const NorthVancouverDrywall = () => {
     {
       icon: <Clock className="w-6 h-6" />, 
       title: "24/7 Emergency Response", 
-      description: "Fast service across North Vancouver"
+      description: "Fast service across Vancouver"
     },
     {
       icon: <Shield className="w-6 h-6" />, 
@@ -55,11 +55,11 @@ const NorthVancouverDrywall = () => {
             24/7 Emergency Drywall & Water Damage Services
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-slate-900">
-            North Vancouver Drywall Repair
+            Vancouver Drywall Repair
             <span className="block text-slate-700">by AZ</span>
           </h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Expert drywall repair and water damage restoration services in North Vancouver. Available 24/7 for emergency response.
+            Expert drywall repair and water damage restoration services in Vancouver. Available 24/7 for emergency response.
           </p>
         </div>
 
@@ -67,9 +67,10 @@ const NorthVancouverDrywall = () => {
         <div className="max-w-2xl mx-auto text-center mb-8">
           <button onClick={handleEmergencyCall} className="group inline-flex items-center justify-center gap-3 bg-slate-800 text-white px-8 py-6 rounded-full text-2xl font-bold hover:bg-slate-900 transition-all duration-300 shadow-lg hover:shadow-xl mb-6">
             <Phone className="w-8 h-8" />
-            <span>(604) 265-9154</span>
+            <span>(778) 653-4862</span>
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </button>
+          <p className="text-lg text-slate-600">922 Homer St, Vancouver, BC</p>
         </div>
       </section>
 
@@ -88,7 +89,8 @@ const NorthVancouverDrywall = () => {
       <section className="py-16 bg-zinc-50">
         <div className="max-w-4xl mx-auto px-4 text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">Get Your Free Estimate</h2>
-          <p className="text-lg text-slate-600">Call: <span className="font-semibold">(604) 265-9154</span> or Email: <span className="font-semibold">office@azdrywall.ca</span></p>
+          <p className="text-lg text-slate-600">Call: <span className="font-semibold">(778) 653-4862</span> or Email: <span className="font-semibold">office@azdrywall.ca</span></p>
+          <p className="text-lg text-slate-600 mt-2">Visit us: <span className="font-semibold">922 Homer St, Vancouver, BC</span></p>
         </div>
 
         <form onSubmit={handleSubmit} className="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -102,12 +104,13 @@ const NorthVancouverDrywall = () => {
 
       {/* Footer */}
       <footer className="bg-slate-800 text-white text-center py-6 mt-16">
-        <p className="text-lg">North Vancouver Drywall by AZ</p>
-        <p>Call us: <a href="tel:604-265-9154" className="underline">(604) 265-9154</a> | Email: <a href="mailto:office@azdrywall.ca" className="underline">office@azdrywall.ca</a></p>
+        <p className="text-lg">Vancouver Drywall by AZ</p>
+        <p>Call us: <a href="tel:778-653-4862" className="underline">(778) 653-4862</a> | Email: <a href="mailto:office@azdrywall.ca" className="underline">office@azdrywall.ca</a></p>
+        <p className="text-sm mt-2">922 Homer St, Vancouver, BC</p>
         <p className="text-sm mt-2">&copy; {new Date().getFullYear()} AZ Drywall. All rights reserved.</p>
       </footer>
     </div>
   );
 };
 
-export default NorthVancouverDrywall;
+export default VancouverDrywall;
